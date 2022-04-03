@@ -4,9 +4,9 @@ def send():
     send = "You:"+ e.get()
     text.insert(END,"\n" + send)
     if(e.get()=='hi'):
-        text.insert(END, "\n" + "Bot: hello")
+        text.insert(END, "\n" + "Bot: hello Akhilesh")
     elif(e.get()=='hello'):
-        text.insert(END, "\n" + "Bot: hi")
+        text.insert(END, "\n" + "Bot: hi Akhilesh")
     elif (e.get() == 'how are you?'):
         text.insert(END, "\n" + "Bot: i'm fine and you?")
     elif (e.get() == "i'm fine too"):
